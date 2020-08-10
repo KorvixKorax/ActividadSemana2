@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="tvNombre">Nombre</string>
+    <string name="tvFecha">Fecha de nacimiento</string>
+    <string name="tvNumero">Número</string>
+    <string name="tvCorreo">Correo</string>
+    <string name="tvDescripcion">Descripción de la persona</string>
+    <string name="btBotonSiguiente">Siguiente</string>
+    <string name="btBotonDefinirFecha">Definir fecha</string>
+    <string name="titulo2">Confirmar Datos</string>
+    <string name="btbotoneditardatos">Editar datos</string>
+
+</resources>

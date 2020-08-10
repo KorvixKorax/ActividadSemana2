@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margenTop"
+        android:text="@string/titulo2"
+        android:textSize="@dimen/tamañotitulo"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvNombreR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:text="@string/tvNombre"
+        android:textSize="@dimen/tamañoletra"/>
+
+    <TextView
+        android:id="@+id/tvFechaR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:text="@string/tvFecha"
+        android:textSize="@dimen/tamañoletra"/>
+
+    <TextView
+        android:id="@+id/tvNumeroR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:text="@string/tvNumero"
+        android:textSize="@dimen/tamañoletra"/>
+
+    <TextView
+        android:id="@+id/tvCorreoR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:text="@string/tvCorreo"
+        android:textSize="@dimen/tamañoletra"/>
+
+    <TextView
+        android:id="@+id/tvDescripcionR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:text="@string/tvDescripcion"
+        android:textSize="@dimen/tamañoletra"/>
+
+    <Button
+        android:id="@+id/btEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margenTopRes"
+        android:gravity="center"
+        android:text="@string/btbotoneditardatos"/>
+
+
+</LinearLayout>
